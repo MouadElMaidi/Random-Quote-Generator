@@ -1,0 +1,43 @@
+.quote {
+  background: white;
+  padding: 40px 50px 40px 50px;
+  max-width: 650px;
+  border-radius: 4px;
+}
+
+.blockquote {
+  font-size: 1.7rem;
+  transition: color 1.5s;
+}
+
+.double-quotes {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+}
+
+.blockquote-footer {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  transition: color 1.5s;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tweet-button {
+  margin-right: 10px;
+  color: white;
+}
+
+.facebook-button {
+  color: white;
+}
+
+.new-quote-button {
+  margin-left: auto;
+  color: white;
+}
