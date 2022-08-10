@@ -71,7 +71,13 @@ function Quote() {
         </figcaption>
       </figure>
       <div className='buttons-container'>
-        <button className='tweet-button background-class' id="tweet-button"><i className="bi bi-twitter"></i></button>
+        <a href={
+          `https://twitter.com/intent/tweet?text=${encodeURIComponent('"' + quote.quoteText + '"-' + quote.quoteAuthor)}`
+        }>
+          <button className='tweet-button background-class' id="tweet-button">
+            <i className="bi bi-twitter"></i>
+          </button>
+        </a>
         <button className='facebook-button background-class' id='facebook-button'><i className="bi bi-facebook"></i></button>
         <button className='new-quote-button background-class' id="new-quote-button" onClick={getNewQuote}>New quote</button>
       </div>
