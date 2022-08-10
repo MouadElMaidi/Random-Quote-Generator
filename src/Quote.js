@@ -73,7 +73,7 @@ function Quote() {
       <div className='buttons-container'>
         <a href={
           `https://twitter.com/intent/tweet?text=${encodeURIComponent('"' + quote.quoteText + '"-' + quote.quoteAuthor)}`
-        }>
+        } target="_blank" rel='noreferrer'>
           <button className='tweet-button background-class' id="tweet-button">
             <i className="bi bi-twitter"></i>
           </button>
